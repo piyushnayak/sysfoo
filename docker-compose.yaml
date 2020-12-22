@@ -1,0 +1,8 @@
+
+version: "3.8"
+
+services:
+  sysfoo:
+    image: piyushnayak/sysfoo:latest
+    ports:
+      - 8800:8080
